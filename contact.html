@@ -1,0 +1,220 @@
+<html>
+<head>
+    <title>Contact - Sonora Guitar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0b0b0b, #24150c);
+            color: white;
+        }
+
+        .contact {
+            padding: 70px 8%;
+            text-align: center;
+            min-height: 90vh;
+        }
+
+        .contact h1 {
+            font-size: 45px;
+            color: #e0a15b;
+            margin-bottom: 10px;
+        }
+
+        .contact > p {
+            color: #aaa;
+            margin-bottom: 45px;
+            font-size: 17px;
+        }
+
+        .contact-container {
+            max-width: 950px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid #513018;
+            border-radius: 18px;
+            padding: 30px;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #d89445;
+            box-shadow: 0 15px 30px rgba(216,148,69,0.15);
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            color: #d89445;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #bbb;
+            line-height: 1.7;
+        }
+
+        .card a {
+            color: #e0a15b;
+            text-decoration: none;
+            word-break: break-word;
+        }
+
+        .card a:hover {
+            color: white;
+        }
+
+        .address {
+            grid-column: span 2;
+            text-align: center;
+        }
+
+        .social {
+            margin-top: 40px;
+        }
+
+        .social h2 {
+            color: #e0a15b;
+            margin-bottom: 20px;
+        }
+
+        .instagram {
+            display: inline-block;
+            padding: 13px 28px;
+            background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+            color: white !important;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .instagram:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(253,29,29,0.25);
+        }
+
+        footer {
+            background: #080808;
+            padding: 25px;
+            text-align: center;
+            color: #777;
+            border-top: 1px solid #2d1b0f;
+        }
+
+        @media (max-width: 768px) {
+            .contact h1 {
+                font-size: 35px;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .address {
+                grid-column: span 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="contact">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Hubungi Sonora Guitar untuk informasi produk dan pemesanan.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="card">
+                <div class="icon">📱</div>
+
+                <h2>Telepon</h2>
+
+                <p>
+                    Hubungi kami melalui nomor:
+                    <br>
+                    <a href="tel:083866134048">
+                        083866134048
+                    </a>
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">📧</div>
+
+                <h2>Email</h2>
+
+                <p>
+                    Kirim pertanyaan melalui email:
+                    <br>
+                    <a href="mailto:fatrafadzril@gmail.com">
+                        fatrafadzril@gmail.com
+                    </a>
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">📸</div>
+
+                <h2>Instagram</h2>
+
+                <p>
+                    Ikuti Instagram Sonora Guitar:
+                    <br><br>
+
+                    <a
+                        href="https://instagram.com/_fatr444"
+                        target="_blank"
+                        class="instagram">
+                        @_fatr444
+                    </a>
+                </p>
+            </div>
+
+
+            <div class="card address">
+                <div class="icon">📍</div>
+
+                <h2>Alamat</h2>
+
+                <p>
+                    Setraduta, Bandung, Parongpong
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Sonora Guitar | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>

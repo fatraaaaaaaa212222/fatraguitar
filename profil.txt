@@ -1,0 +1,60 @@
+<html>
+ <head>
+    <title> LIST GITAR </title>
+ </head>
+<body bgcolor ="grey">
+    <h3><front color ="white">DAFTAR ADALAH POKONYA</font></h3>
+    <ul>
+       <li>Akustik</li>
+       <li>Klasik</li>
+       <li>Elektrik</li>
+       <li>Bass</li>
+    </ul><hr>
+    <h3><font color ="black">DAFTAR GITAR AKUSTIK</font></h3>
+    <ol>
+       <li>Maton SRS808C</li>
+       <li>Yamaha F310</li>
+       <li>Yamaha C40</li>
+       <li>Gibson/Less Paul/SG</li>
+   </ol><hr>
+   <h3><front color ="white">DAFTAR MINUMAN</font></h3>
+    <ul style="list-style-type:square;">
+       <li>Jeruk</li>
+       <li>Mangga</li>
+       <li>Mangga</li>
+    </ul><hr>    
+   <h3><font color ="black">DAFTAR MAKANAN</font></h3>
+    <ol type="A">
+       <li>Jukut</li>
+       <li>Tempe Bacem</li>
+       <li>Ayam Goreng</li>
+       <li>Nasi Putih/Merah/Uduk</li>
+   </ol><hr>
+   <h3><front color ="white">DAFTAR MINUMAN</font></h3>
+    <ul style="list-style-type:none;">
+       <li>Jeruk</li>
+       <li>Mangga</li>
+       <li>Mangga</li>
+    </ul><hr>    
+   <h3><font color ="black">DAFTAR MAKANAN</font></h3>
+    <ol type="a">
+       <li>Jukut</li>
+       <li>Tempe Bacem</li>
+       <li>Ayam Goreng</li>
+       <li>Nasi Putih/Merah/Uduk</li>
+   </ol><hr>    
+   <h3><font color ="black">DAFTAR MAKANAN</font></h3>
+    <ol type="I">
+       <li>Jukut</li>
+       <li>Tempe Bacem</li>
+       <li>Ayam Goreng</li>
+       <li>Nasi Putih/Merah/Uduk</li>
+   </ol><hr> 
+  <h3><font color ="black">DAFTAR MAKANAN</font></h3>
+    <ol type="i">
+       <li>Jukut</li>
+       <li>Tempe Bacem</li>
+       <li>Ayam Goreng</li>
+       <li>Nasi Putih/Merah/Uduk</li>
+   </ol><hr>
+</body>

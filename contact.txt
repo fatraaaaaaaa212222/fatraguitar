@@ -1,0 +1,25 @@
+<section id="contact" class="contact">
+  <h2>contact</h2>
+
+  <div class="contact-info">
+    <p>
+      📱 <strong>Nomor:</strong>
+      <a href="tel:083866134048">083866134048</a>
+    </p>
+
+    <p>
+      📧 <strong>Email:</strong>
+      <a href="mailto:fatrafadzril@gmail.com">fatrafadzril@gmail.com</a>
+    </p>
+
+    <p>
+      📸 <strong>Instagram:</strong>
+      <a href="https://instagram.com/_fatr444" target="_blank">@_fatr444</a>
+    </p>
+
+    <p>
+      📍 <strong>Alamat:</strong>
+      Setraduta, Bandung, Parongpong
+    </p>
+  </div>
+</section>

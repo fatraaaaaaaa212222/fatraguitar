@@ -1,0 +1,276 @@
+<html>
+<head>
+    <title>Home - Fatra Guitar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0b0b0b, #24150c);
+            color: white;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 8%;
+        }
+
+        .text {
+            max-width: 600px;
+        }
+
+        .text small {
+            color: #d89445;
+            letter-spacing: 4px;
+            font-size: 14px;
+        }
+
+        .text h1 {
+            font-size: 60px;
+            margin: 20px 0;
+            line-height: 1.1;
+        }
+
+        .text h1 span {
+            color: #d89445;
+        }
+
+        .text p {
+            color: #bbb;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 32px;
+            background: #c47a32;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #e09a50;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(216,148,69,0.3);
+        }
+
+        .guitar {
+            width: 330px;
+            height: 330px;
+            border-radius: 50%;
+            background: radial-gradient(
+                circle,
+                #e0a15b,
+                #8b4d20,
+                #251208
+            );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 170px;
+
+            box-shadow:
+                0 0 40px rgba(216,148,69,0.3),
+                0 0 100px rgba(216,148,69,0.1);
+
+            animation: melayang 3s infinite ease-in-out;
+        }
+
+        @keyframes melayang {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .features {
+            background: #111;
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .features h2 {
+            color: #e0a15b;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .card {
+            width: 30%;
+            padding: 30px 20px;
+            background: #1c1c1c;
+            border-radius: 15px;
+            border: 1px solid #4b2d17;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #d89445;
+            box-shadow: 0 10px 30px rgba(216,148,69,0.15);
+        }
+
+        .card h3 {
+            color: #d89445;
+            margin: 15px 0;
+        }
+
+        .card p {
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        .icon {
+            font-size: 45px;
+        }
+
+        footer {
+            background: #080808;
+            padding: 25px;
+            text-align: center;
+            color: #777;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                gap: 50px;
+            }
+
+            .text h1 {
+                font-size: 42px;
+            }
+
+            .guitar {
+                width: 250px;
+                height: 250px;
+                font-size: 120px;
+            }
+
+            .cards {
+                flex-direction: column;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HOME -->
+    <section class="hero">
+
+        <div class="text">
+
+            <small>WELCOME TO SONORA GUITAR</small>
+
+            <h1>
+                Temukan <span>Gitar</span><br>
+                Impianmu
+            </h1>
+
+            <p>
+                Selamat datang di Sonora Guitar.
+                Kami menyediakan berbagai macam gitar
+                berkualitas dengan desain keren dan
+                harga yang terjangkau.
+            </p>
+
+            <a href="Products.html" target="konten" class="button">
+                Lihat Produk 🎸
+            </a>
+
+        </div>
+
+        <div class="guitar">
+            🎸
+        </div>
+
+    </section>
+
+
+    <!-- KEUNGGULAN -->
+    <section class="features">
+
+        <h2>Kenapa Pilih Sonora Guitar?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🎸</div>
+
+                <h3>Kualitas Terbaik</h3>
+
+                <p>
+                    Kami menyediakan gitar dengan
+                    kualitas terbaik untuk menemani
+                    perjalanan musik kamu.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">💰</div>
+
+                <h3>Harga Terjangkau</h3>
+
+                <p>
+                    Dapatkan gitar berkualitas dengan
+                    harga yang ramah di kantong.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">🚚</div>
+
+                <h3>Pengiriman Aman</h3>
+
+                <p>
+                    Produk dikemas dengan aman agar
+                    gitar sampai ke tangan kamu
+                    dalam kondisi terbaik.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Sonora Guitar | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>

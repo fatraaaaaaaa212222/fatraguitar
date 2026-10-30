@@ -1,0 +1,22 @@
+<html>
+ <head>
+    <title>.:: SONORA GUITAR ::.</title>
+ </head>
+<body>
+ <h1><u>ALL YOU CAN TRY INSIDE A GUITAR HEAVEN STORE</h1></u>
+ <p>Welcome to the best Guitar Heaven, dimana kamu bisa mencari koleksi gitar terbaik yang ada di kota Bandung!</p>
+ <p>Koleksi gitar kami memang kelas premium karena semuanya barang impor original. Ada harga, ada kualitas yang siap memanjakan telinga dan jemari kamu!</p>
+ <p>Selamat memilih gear baru! Jangan lupa siapin dompet buat jemput 'jodoh' gitar kamu hari ini ya..</p><hr>
+ <h2>List Barang yang Ingin Dibeli :</h2>
+ <p>* Taylor 110ce <i>Rp 18.000.000</p></i>
+ <p>* Martin OMJM John Mayer Signature <i>Rp 84.000.000</p></i>
+ <p>*Tanglewood TW4EOA Winterleaf Rp <i>Rp 5.500.000</p><hr></i> 
+ <h2>Konfirmasi Pembayaran Anda :</h2>
+ <p><font color="#1E90FF">
+ <p>* BCA     <u>TAP HERE TO PICK</u>     
+ <p>* Qris    <u>TAP HERE TO PICK</u>     
+ <p>* Gopay   <u>TAP HERE TO PICK</u>
+ <p>* OVO     <u>TAP HERE TO PICK</u>
+ <p>* Card    <u>TAP HERE TO PICK</u>
+<p align="left"><font face="Arial" size=5 color="red">
+<strong>Waspada:</strong> Latihan Praktek.</font></p>

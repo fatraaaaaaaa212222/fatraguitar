@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Sonora Guitar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ffffff;
+            font-family: 'Montserrat', 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            color: #2c3e50;
+        }
+
+        .header-container {
+            margin-bottom: 45px;
+        }
+
+        .sub-judul {
+            color: #7f8c8d;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .judul-halaman {
+            color: #2c3e50;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .garis-penghias {
+            width: 60px;
+            height: 3px;
+            background: #2c3e50;
+            margin: 12px auto 0;
+            border-radius: 2px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1140px;
+            margin: auto;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            width: 280px;
+            padding: 16px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            transition: all 0.35s ease;
+            border: 1px solid #eef2f5;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 18px 40px rgba(0, 0, 0, 0.12);
+            border-color: rgba(44, 62, 80, 0.2);
+        }
+
+        .img-box {
+            width: 100%;
+            height: 230px;
+            border-radius: 14px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            position: relative;
+            background-color: #f5f5f5;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover img {
+            transform: scale(1.06);
+        }
+
+        .product-card h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            padding: 0 4px;
+            min-height: 44px;
+        }
+
+        .price {
+            color: #5c3d2e;
+            font-weight: 700;
+            font-size: 19px;
+            margin-bottom: 12px;
+            padding: 0 4px;
+        }
+
+        .description {
+            color: #4a5568;
+            font-size: 12px;
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+            line-height: 1.5;
+            flex-grow: 1;
+            font-weight: 400;
+        }
+
+        .supplier {
+            color: #7f8c8d;
+            font-size: 12px;
+            margin-bottom: 15px;
+            padding: 0 4px;
+        }
+
+        .btn-buy {
+            display: block;
+            background: linear-gradient(135deg, #2c3e50, #1a252f);
+            color: #ffffff;
+            border: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(44, 62, 80, 0.2);
+        }
+
+        .btn-buy:hover {
+            background: linear-gradient(135deg, #1a252f, #0f171e);
+            box-shadow: 0 6px 16px rgba(44, 62, 80, 0.35);
+        }
+
+        .btn-buy:active {
+            transform: scale(0.98);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 35px 15px;
+            }
+
+            .judul-halaman {
+                font-size: 26px;
+            }
+
+            .product-container {
+                gap: 20px;
+            }
+
+            .product-card {
+                width: 100%;
+                max-width: 340px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header-container">
+    <div class="sub-judul">OUR COLLECTION</div>
+    <h1 class="judul-halaman">SONORA GUITAR</h1>
+    <div class="garis-penghias"></div>
+</div>
+
+<div class="product-container">
+
+    <!-- Produk 1 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="winter.jpg" alt="Tanglewood TW4EOA Winterleaf">
+        </div>
+        <h3>Tanglewood TW4EOA Winterleaf</h3>
+        <p class="price">Rp 4.299.900</p>
+        <p class="description">
+            Gitar akustik dengan desain Winterleaf yang elegan, cocok untuk bermain musik dan penampilan akustik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/ZUczeq22jrNfUhyXF" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="f310.jpg" alt="Yamaha F310">
+        </div>
+        <h3>Yamaha F310</h3>
+        <p class="price">Rp 1.490.000</p>
+        <p class="description">
+            Gitar akustik Yamaha dengan desain klasik dan karakter suara yang cocok untuk pemain gitar pemula maupun penggunaan sehari-hari.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/JX0kqTWBLhdRhn2ho" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="110ce.jpg" alt="Taylor 110ce">
+        </div>
+        <h3>Taylor 110ce</h3>
+        <p class="price">Rp 18.500.000</p>
+        <p class="description">
+            Gitar akustik-elektrik Taylor dengan desain nyaman dan cocok untuk permainan akustik maupun kebutuhan panggung.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/9E2qV3miW6awn8nz3" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="c40.jpg" alt="Yamaha C40">
+        </div>
+        <h3>Yamaha C40</h3>
+        <p class="price">Rp 1.432.000</p>
+        <p class="description">
+            Gitar klasik dengan senar nilon yang nyaman dimainkan dan sesuai untuk latihan serta pembelajaran gitar.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/fnJ4xLYhOBPIToDl8" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="l60m.jpg" alt="Cort Earth L60M">
+        </div>
+        <h3>Cort Earth L60M</h3>
+        <p class="price">Rp 3.740.000</p>
+        <p class="description">
+            Gitar akustik Cort dengan tampilan natural dan karakter yang sesuai untuk permainan fingerstyle maupun strumming.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/xblxDPNJsh1SljJDJ" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="martin.jpg" alt="Martin 000 Jr Sapele">
+        </div>
+        <h3>Martin 000 Jr Sapele</h3>
+        <p class="price">Rp 14.720.000</p>
+        <p class="description">
+            Gitar Martin berukuran compact dengan desain nyaman untuk dimainkan dan mudah dibawa.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/0VGdfF4Nt8sZidc4X" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 7 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="omjm.jpg" alt="Martin OMJM John Mayer Signature">
+        </div>
+        <h3>Martin OMJM John Mayer Signature</h3>
+        <p class="price">Rp 84.500.000</p>
+        <p class="description">
+            Gitar signature Martin John Mayer dengan desain premium untuk pemain yang mengutamakan kualitas dan detail.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/AevAioV6INsfyFeVY" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 8 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="c315.jpg" alt="Yamaha C315">
+        </div>
+        <h3>Yamaha C315</h3>
+        <p class="price">Rp 1.320.000</p>
+        <p class="description">
+            Gitar klasik Yamaha dengan desain sederhana dan nyaman digunakan untuk latihan serta pembelajaran.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/c3RGDFxHZwsYs2tdB" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 9 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="dc11.jpg" alt="Classic DC11">
+        </div>
+        <h3>Classic DC11</h3>
+        <p class="price">Rp 1.250.000</p>
+        <p class="description">
+            Gitar dengan desain praktis dan harga terjangkau untuk latihan serta penggunaan sehari-hari.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/SIJfv7dVW83RhwqfU" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 10 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="igs.jpg" alt="IGS Sonidok">
+        </div>
+        <h3>IGS Sonidok</h3>
+        <p class="price">Rp 2.000.000</p>
+        <p class="description">
+            Gitar dengan desain modern yang dapat digunakan untuk latihan dan permainan musik sehari-hari.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/E8dbSvyidGzxYV5bE" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 11 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="cg122.jpg" alt="Yamaha CG122MSH">
+        </div>
+        <h3>Yamaha CG122MSH</h3>
+        <p class="price">Rp 4.100.000</p>
+        <p class="description">
+            Gitar klasik Yamaha dengan konstruksi yang ditujukan untuk permainan gitar klasik dan latihan musik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/rXivkm7ffNdNf3f97" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 12 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="cardoba.jpg" alt="Cordoba">
+        </div>
+        <h3>Cordoba</h3>
+        <p class="price">Rp 24.000.000</p>
+        <p class="description">
+            Gitar Cordoba dengan karakter klasik dan tampilan elegan untuk kebutuhan permainan gitar.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/P4JXqavkXAPRNRZO7" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 13 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="pytd.jpg" alt="Yamaha SLG200N">
+        </div>
+        <h3>Yamaha SLG200N</h3>
+        <p class="price">Rp 11.600.000</p>
+        <p class="description">
+            Gitar silent Yamaha dengan desain unik dan praktis untuk bermain gitar dengan kebutuhan mobilitas tinggi.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/1iRrbO35eXX4yo2A5" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 14 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="pac112.jpg" alt="Yamaha Pacifica 112V">
+        </div>
+        <h3>Yamaha Pacifica 112V</h3>
+        <p class="price">Rp 4.400.000</p>
+        <p class="description">
+            Gitar elektrik Yamaha dengan desain Pacifica yang serbaguna untuk berbagai gaya permainan.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/b0DdCrsww8P7FaWuS" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 15 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="bullet.jpg" alt="Squier Stratocaster">
+        </div>
+        <h3>Squier Stratocaster</h3>
+        <p class="price">Rp 10.000.000</p>
+        <p class="description">
+            Gitar elektrik bergaya Stratocaster dengan bentuk klasik dan cocok untuk berbagai kebutuhan permainan musik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/8mgVsxttowPmPpLnC" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 16 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="cort.jpg" alt="Cort CR100">
+        </div>
+        <h3>Cort CR100</h3>
+        <p class="price">Rp 10.000.000</p>
+        <p class="description">
+            Gitar elektrik Cort dengan desain klasik dan tampilan solid untuk permainan musik elektrik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/tVXMUypAadyjmGZzW" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 17 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="prs.jpg" alt="PRS SE Standard 24">
+        </div>
+        <h3>PRS SE Standard 24</h3>
+        <p class="price">Rp 11.700.000</p>
+        <p class="description">
+            Gitar elektrik PRS dengan desain modern dan konfigurasi yang sesuai untuk berbagai gaya bermain.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/QwjaZJKte6G0oshp6" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 18 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="paul.jpg" alt="Epiphone Les Paul Studio">
+        </div>
+        <h3>Epiphone Les Paul Studio</h3>
+        <p class="price">Rp 8.900.000</p>
+        <p class="description">
+            Gitar elektrik dengan desain Les Paul yang khas dan tampilan klasik untuk permainan musik elektrik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/L0TynxWGvDfWmI158" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 19 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="mustang.jpg" alt="Squier Bullet Mustang">
+        </div>
+        <h3>Squier Bullet Mustang</h3>
+        <p class="price">Rp 3.900.000</p>
+        <p class="description">
+            Gitar elektrik dengan bentuk Mustang yang ringkas dan desain yang mudah dikenali.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/mSHb3H6Wdqml4Gnyx" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 20 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="gl.jpg" alt="G&L Tribute ASAT Classic">
+        </div>
+        <h3>G&amp;L Tribute ASAT Classic</h3>
+        <p class="price">Rp 8.200.000</p>
+        <p class="description">
+            Gitar elektrik G&amp;L dengan desain klasik dan karakter yang cocok untuk berbagai kebutuhan permainan.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/hyZnnAlexK76R9MeK" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 21 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="gre.jpg" alt="Gretsch G2420 Streamliner">
+        </div>
+        <h3>Gretsch G2420 Streamliner</h3>
+        <p class="price">Rp 11.600.000</p>
+        <p class="description">
+            Gitar elektrik hollow body dengan desain khas Gretsch dan tampilan yang elegan.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/UMxn9RH0cxSRq74ed" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 22 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="jazz.jpg" alt="Fender American Professional II Jazz Bass">
+        </div>
+        <h3>Fender American Professional II Jazz Bass</h3>
+        <p class="price">Rp 50.000.000</p>
+        <p class="description">
+            Bass elektrik Fender Jazz Bass dengan desain profesional dan tampilan klasik.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/LIbdO5JBlZPerAyge" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 23 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="pjb.jpg" alt="Music Man Squier Affinity Series Precision Bass PJ">
+        </div>
+        <h3>Music Man Squier Affinity Series Precision Bass PJ</h3>
+        <p class="price">Rp 7.150.000</p>
+        <p class="description">
+            Bass dengan konfigurasi pickup PJ dan desain yang cocok untuk berbagai kebutuhan permainan bass.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/yyQQknFTvqOhBToYw" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+    <!-- Produk 24 -->
+    <div class="product-card">
+        <div class="img-box">
+            <img src="trbx.jpg" alt="Yamaha TRBX174">
+        </div>
+        <h3>Yamaha TRBX174</h3>
+        <p class="price">Rp 4.100.000</p>
+        <p class="description">
+            Bass elektrik Yamaha dengan desain modern dan konfigurasi pickup yang fleksibel untuk berbagai gaya bermain.
+        </p>
+        <p class="supplier">Supplier: JetExpress</p>
+        <a class="btn-buy" href="https://share.google/uyQseXWDPdaYGCiZv" target="_blank">
+            Lihat Produk
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

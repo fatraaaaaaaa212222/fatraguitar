@@ -1,0 +1,246 @@
+<html>
+<head>
+    <title>Profile - Sonora Guitar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0b0b0b, #24150c);
+            color: white;
+        }
+
+        .profile {
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        .profile h1 {
+            font-size: 45px;
+            color: #e0a15b;
+            margin-bottom: 10px;
+        }
+
+        .profile h1 span {
+            color: white;
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 17px;
+            margin-bottom: 50px;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid #5a3519;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .logo {
+            width: 130px;
+            height: 130px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, #d89445, #633513);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 65px;
+            box-shadow: 0 0 35px rgba(216,148,69,0.25);
+        }
+
+        .about h2 {
+            color: #d89445;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            color: #ccc;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 35px;
+        }
+
+        .box {
+            background: #191919;
+            padding: 25px 15px;
+            border-radius: 15px;
+            border: 1px solid #392412;
+            transition: 0.3s;
+        }
+
+        .box:hover {
+            transform: translateY(-8px);
+            border-color: #d89445;
+            box-shadow: 0 10px 25px rgba(216,148,69,0.15);
+        }
+
+        .box .icon {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+
+        .box h3 {
+            color: #e0a15b;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            color: #999;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .vision {
+            margin-top: 50px;
+            padding: 40px;
+            background: linear-gradient(135deg, #2c190d, #120d09);
+            border-radius: 20px;
+            border: 1px solid #5a3519;
+        }
+
+        .vision h2 {
+            color: #e0a15b;
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+
+        .vision p {
+            color: #ccc;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #080808;
+            padding: 25px;
+            text-align: center;
+            color: #777;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .profile h1 {
+                font-size: 35px;
+            }
+
+            .about {
+                padding: 30px 20px;
+            }
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="profile">
+
+        <h1>Profile <span>Sonora Guitar</span></h1>
+
+        <p class="subtitle">
+            Mengenal lebih dekat toko gitar pilihanmu
+        </p>
+
+
+        <div class="about">
+
+            <div class="logo">
+                🎸
+            </div>
+
+            <h2>SONORA GUITAR</h2>
+
+            <p>
+                Sonora Guitar adalah toko yang menyediakan berbagai
+                macam gitar berkualitas untuk para pecinta musik.
+                Kami hadir untuk memberikan pilihan gitar terbaik
+                dengan harga yang terjangkau dan pelayanan yang
+                ramah kepada setiap pelanggan.
+            </p>
+
+            <div class="info">
+
+                <div class="box">
+                    <div class="icon">🎸</div>
+
+                    <h3>Produk</h3>
+
+                    <p>
+                        Menyediakan gitar akustik, elektrik,
+                        klasik, dan bass.
+                    </p>
+                </div>
+
+
+                <div class="box">
+                    <div class="icon">⭐</div>
+
+                    <h3>Kualitas</h3>
+
+                    <p>
+                        Kami mengutamakan kualitas produk
+                        agar pelanggan mendapatkan gitar terbaik.
+                    </p>
+                </div>
+
+
+                <div class="box">
+                    <div class="icon">🤝</div>
+
+                    <h3>Pelayanan</h3>
+
+                    <p>
+                        Memberikan pelayanan terbaik dan
+                        membantu pelanggan memilih gitar.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="vision">
+
+            <h2>Visi & Misi</h2>
+
+            <p>
+                Menjadi toko gitar yang terpercaya dan menjadi
+                pilihan utama bagi pecinta musik. Kami berkomitmen
+                menyediakan produk berkualitas, harga yang bersahabat,
+                serta pelayanan yang terbaik bagi setiap pelanggan.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Sonora Guitar | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+<html>
+<head>
+    <title>Distributor - Sonora Guitar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0b0b0b, #24150c);
+            color: white;
+        }
+
+        .distributor {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .distributor h1 {
+            font-size: 45px;
+            color: #e0a15b;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 17px;
+            margin-bottom: 45px;
+        }
+
+        /* CARD CONTAINER */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        /* CARD */
+        .card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid #513018;
+            border-radius: 18px;
+            padding: 30px;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #d89445;
+            box-shadow: 0 15px 30px rgba(216,148,69,0.15);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            color: #d89445;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #bbb;
+            line-height: 1.7;
+        }
+
+        /* WILAYAH */
+        .wilayah {
+            margin-top: 40px;
+            padding: 35px;
+            background: linear-gradient(135deg, #2c190d, #120d09);
+            border: 1px solid #5a3519;
+            border-radius: 18px;
+        }
+
+        .wilayah h2 {
+            color: #e0a15b;
+            margin-bottom: 20px;
+        }
+
+        .wilayah-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .wilayah-item {
+            padding: 12px 22px;
+            background: #1b1b1b;
+            border: 1px solid #5a3519;
+            border-radius: 25px;
+            color: #ccc;
+            transition: 0.3s;
+        }
+
+        .wilayah-item:hover {
+            background: #c47a32;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        /* BUTTON */
+        .button {
+            display: inline-block;
+            margin-top: 35px;
+            padding: 14px 30px;
+            background: #c47a32;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #e09a50;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(216,148,69,0.25);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #080808;
+            padding: 25px;
+            text-align: center;
+            color: #777;
+            margin-top: 30px;
+            border-top: 1px solid #2d1b0f;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+
+            .distributor h1 {
+                font-size: 35px;
+            }
+
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="distributor">
+
+        <h1>Distributor</h1>
+
+        <p class="subtitle">
+            Partner resmi dan jaringan distribusi Sonora Guitar
+        </p>
+
+
+        <!-- INFORMASI -->
+        <div class="container">
+
+            <div class="card">
+
+                <div class="icon">🏪</div>
+
+                <h2>Toko Resmi</h2>
+
+                <p>
+                    Sonora Guitar menyediakan berbagai pilihan
+                    gitar dan aksesoris musik melalui jaringan
+                    distributor dan toko resmi yang terpercaya.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icon">📦</div>
+
+                <h2>Distribusi Produk</h2>
+
+                <p>
+                    Kami memastikan setiap produk dikemas dengan
+                    aman dan didistribusikan dengan baik agar
+                    sampai kepada pelanggan dalam kondisi terbaik.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icon">🤝</div>
+
+                <h2>Kerja Sama</h2>
+
+                <p>
+                    Kami membuka kesempatan kerja sama bagi toko
+                    musik dan reseller yang ingin menjadi bagian
+                    dari jaringan Sonora Guitar.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icon">🚚</div>
+
+                <h2>Pengiriman</h2>
+
+                <p>
+                    Pengiriman produk tersedia untuk berbagai
+                    wilayah dengan proses yang aman dan
+                    terpercaya.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- WILAYAH -->
+        <div class="wilayah">
+
+            <h2>Wilayah Distribusi</h2>
+
+            <div class="wilayah-list">
+
+                <div class="wilayah-item">
+                    📍 Bandung
+                </div>
+
+                <div class="wilayah-item">
+                    📍 Jakarta
+                </div>
+
+                <div class="wilayah-item">
+                    📍 Bogor
+                </div>
+
+                <div class="wilayah-item">
+                    📍 Depok
+                </div>
+
+                <div class="wilayah-item">
+                    📍 Tangerang
+                </div>
+
+                <div class="wilayah-item">
+                    📍 Bekasi
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a href="contact.html" target="konten" class="button">
+            Hubungi Kami
+        </a>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Sonora Guitar | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>
